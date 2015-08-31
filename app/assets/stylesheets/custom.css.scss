@@ -1,2 +1,46 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.navbar {
+  background-color: rgba(232, 55, 42, 0.67);
+}
+
+.navbar-nav {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+
+.nav > li > a  {
+  background-color: rgba(51, 44, 43, 0.92);
+  color: #FFF;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+    &:hover {
+    color: #B71105;
+    padding: 18px 15px;
+    transition: 0.40s ease;
+    }
+}
+
+body {
+  background-image: image-url('dock_light.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.navbar-brand span {
+  font-size: 40px;
+  position: absolute;
+  width: 100%;
+  padding-left: 20px;
+  margin-left: auto;
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+}
+
+.fa {
+  color: #FFF;
+}
