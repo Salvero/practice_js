@@ -13,7 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery.sticky
-//= require parallax.min.js
+//= require parallax.min
+//= require gmaps
 //= require main
 //= require turbolinks
 //= require bootstrap-sprockets

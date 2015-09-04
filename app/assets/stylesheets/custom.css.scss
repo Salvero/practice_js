@@ -2,34 +2,43 @@
 @import "bootstrap";
 
 .navbar {
-  background-color: #1a6ba5;
+  background-color: rgba(#ba2a2b, 0.83);
   height-position: 50%;
   transition: 1s;
 }
 
-// Sticky navbar
+.header {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+}
+
+Sticky navbar
 .is-sticky .header {
   background-color: rgba(#460d0d, 0.77);
+  z-index: 9998;
+  position: fixed;
 }
 
 .is-sticky .navbar-nav {
-  padding: 9px 5px;
+  padding: 9px 9px;
 }
 
 .navbar-nav {
-  padding: 20px 5px;
+  padding: 18px 9px;
 }
 
-
 .nav > li > a  {
-  background-color: rgba(232, 55, 42, 0.42);
-  color: #FFF;
-  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.98);
+  color: #ac4142;
+  font-size: 17px;
   font-family: 'Raleway', sans-serif;
     &:hover {
-    color: #B71105;
-    padding: 15px 21px;
-    transition: 0.85s ease;
+    color: #eb1c0d;
+    font-size: 22px;
+    padding: 17px 21px;
+    transition: 0.40s ease;
+    background-color: #FFF!important;
     }
 }
 
@@ -46,6 +55,10 @@
   color: #FFF;
 }
 
+.fa-envelope {
+  color: #ac4142;
+}
+
 // .jumbotron {
 //   position: relative;
   // background: #000 url('122H.jpg') center center;
@@ -58,32 +71,36 @@
 .caption {
   width: 100%;
   text-align: center;
-  margin-top: 250px;
+  margin-top: 380px;
+}
+
+.myName {
+  font-family: 'Berkshire Swash', cursive;
 }
 
 .caption h2 {
-  font-size: 4.5em;
-  letter-spacing: -2px;
-  margin-bottom: 40px;
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-size: 7.5em;
+  font-family: 'Berkshire Swash', cursive;
   color: #FFF;
 }
 
 .caption p {
-  font-size: 1.1em;
+  font-size: 2.0em;
   line-height: 1.7em;
   font-family: 'Raleway', sans-serif;
-  background-color: #FFF;
-  display: inline;
-  padding: 5px 7px;
-  border-radius: 5px;
+  color: #FFF;
 }
 
-.projects, .skills h2 {
+.projectsLabel, .skillsLabel h2 {
   margin-left: 20px;
   margin-bottom: 10px;
   color: #1a6ba5;
+}
+
+.aboutLabel {
+  text-align: center;
+  color: #1a6ba5;
+  font-size: 16px;
 }
 
 .boxes {
@@ -114,10 +131,10 @@
 
 .footer {
   color: #FFF;
-  background-color: #ac4142;
+  background-color: rgba(186, 42, 43, 0.83);
   width: 100%;
-  height: 80px;
-  margin: 0 auto;
+  height: 300px;
+  margin-top: 160px;
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
@@ -125,11 +142,50 @@
 }
 
 .parallax-window {
-    min-height: 700px;
+    min-height: 1000px;
     background: transparent;
+    margin-top: -100px;
+}
+.parallax-window2 {
+    min-height: 250px;
+    background: transparent;
+}
+
+.skills {
+  margin-bottom: 50px;
 }
 
 .skills_lists {
   width: 80%;
   margin: auto;
+}
+
+.skills_lists h5 {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+}
+
+// .aboutPhoto {
+//   height: 200px;
+//   width: 200px;
+//   border-radius: 220px;
+// }
+
+.aboutDescription {
+  width: 85%;
+  margin-bottom: 70px;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.style_image {
+  border-style: solid;
+  border-radius: 160px;
+  height: 250px;
+  width: 200px;
+}
+
+.overlay {
+  color: rgb(242, 51, 10);
+  font-size: 55px;
 }

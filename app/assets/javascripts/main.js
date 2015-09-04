@@ -1,7 +1,14 @@
+
+// Sticky
 $(document).ready(function(){
   $(".header").sticky();
 });
 
+// Parallax
 $('.parallax-window').parallax({
-  data-image-src=<%= asset_path "122H.jpg" %>
+  data-image-src=<%= asset_path "204H.jpg" %>
+});
+
+$('.parallax-window2').parallax({
+  data-image-src=<%= asset_path "machine.jpg" %>
 });

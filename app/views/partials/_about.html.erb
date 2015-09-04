@@ -1,0 +1,66 @@
+<div class="parallax-window2" data-parallax="scroll" data-image-src="<%= asset_path "133H.jpg" %>"></div>
+<div class="container-fluid">
+      <div class="aboutLabel">
+      <h2>About Me</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+        <div class="col-md-3">
+          <%= image_tag("WP20150816048.jpg", class: "style_image") %>
+        </div>
+        <div class="aboutDescription col-md-7">
+          <h3>Salman Akram</h3>
+          <p>I am a Rails Developer from Mississauga, Ontario and I am a developer with the passion and love in what I do.
+          </p>
+          <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado
+            por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro.
+            Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada.
+            Foi popularizada nos anos 60 com
+          </p>
+        </div>
+      </div>
+    </div>
+        <style type="text/css">
+          #map {
+            margin: auto;
+            width: 1600px;
+            height: 400px;
+          }
+        </style>
+        <!-- Google Maps -->
+        <div id="map"></div>
+         <script type="text/javascript">
+            var map = new GMaps({
+              el: '#map',
+              lat: 43.47305346537935,
+              lng: -79.80479484882812,
+              zoom: 6,
+              zoomControl: true,
+              zoomControlOpt: {
+                  style: 'SMALL',
+                  position: 'TOP_LEFT'
+              },
+              panControl: false,
+              streetViewControl: false,
+              mapTypeControl: false,
+              overviewMapControl: false
+            });
+
+            map.drawOverlay({
+              lat: 43.47305346537935,
+              lng: -79.80479484882812,
+              content: '<div class="overlay">&#10687;</div>'
+            });
+
+            map.setOptions({
+              draggable: false,
+              zoomControl: false,
+              scrollwheel: false,
+              disableDoubleClickZoom: true
+            });
+          </script>
+</div>
+
+<div class="button red">
+    <h4>Keep in touch with me?</h4>
+</div>
