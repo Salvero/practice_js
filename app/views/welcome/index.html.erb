@@ -1,29 +1,19 @@
 <div class="parallax-window" data-parallax="scroll" data-image-src="<%= asset_path "dock_street.png" %>">
     <div class="container-fluid">
-        <div class="caption">
-          <h2>Hello, I'm <div class="myName">Salman</div></h2>
-            <p>Rails // Motivated // Self-Educated</p>
-
+        <div class="jumbotron text-center">
+          <h2>Hello, I'm Salman</h2>
+            <p>Full Stack Rails Developer</p>
         </div>
     </div>
 </div>
-
-<!-- <div class="jumbotron">
-  <div class="container-fluid">
-      <div class="caption">
-        <h2>Salman Akram</h2>
-          <p>Rails // Motivated // Learning More Technologies</p>
-      </div>
-  </div>
-</div> -->
 <div class="container-fluid">
     <div class="projectsLabel">
       <h2>Latest Projects</h2>
         <div class="row">
           <div class="thumbnail col-lg-4">
-            <%= link_to(image_tag("sticker-team.png", size: "400x250"), alt="") %>
+            <%= link_to(image_tag("sticker-team.png", target: "_blank", size: "400x250"), root_path) %>
             <p>United we stand divided we fail.  Meet the all star team behind the agency.</p>
-            <a href="team.html" class="button">Meet the Team</a>
+            <!-- <a href="team.html" class="button">Meet the Team</a> -->
           </div>
 
           <div class="thumbnail col-lg-4">

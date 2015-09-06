@@ -15,6 +15,7 @@
 //= require jquery.sticky
 //= require parallax.min
 //= require gmaps
+//= require lightbox/simple-lightbox
 //= require main
 //= require turbolinks
 //= require bootstrap-sprockets

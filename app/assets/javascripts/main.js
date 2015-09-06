@@ -12,3 +12,5 @@ $('.parallax-window').parallax({
 $('.parallax-window2').parallax({
   data-image-src=<%= asset_path "machine.jpg" %>
 });
+
+$('.projectsLabel a').simpleLightbox(options);
