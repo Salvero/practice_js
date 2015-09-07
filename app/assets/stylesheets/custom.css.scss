@@ -76,22 +76,22 @@ Sticky navbar
   font-family: 'Berkshire Swash', cursive;
 }
 
-.jumbotron  h2 {
-  font-size: 5.5em;
+.jumbotron h2 {
+  font-size: 7.5em;
   font-family: 'Berkshire Swash', cursive;
   color: #FFF;
 }
 
-.jumbotron p {
-  font-size: 2.0em;
+.jumbotron span > p {
+  font-size: 2.5em;
   line-height: 1.9em;
   font-family: 'Raleway', sans-serif;
   color: #FFF;
 }
 
-.projectsLabel, .skillsLabel h2 {
-  margin-left: 20px;
-  margin-bottom: 10px;
+.projectsLabel, .skillsLabel {
+  margin-top: 65px;
+  margin-bottom: 55px;
   color: #1a6ba5;
 }
 
@@ -99,6 +99,28 @@ Sticky navbar
   text-align: center;
   color: #1a6ba5;
   font-size: 16px;
+}
+
+.skills {
+  margin-bottom: 50px;
+}
+
+.skills_lists h2 {
+  width: 80%;
+  margin: auto;
+}
+
+.project_lists {
+  margin-right: -150px;
+}
+
+.project_lists img {
+  margin-bottom: 134px;
+}
+
+.skills_lists h5 {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .boxes {
@@ -149,26 +171,6 @@ Sticky navbar
     background: transparent;
 }
 
-.skills {
-  margin-bottom: 50px;
-}
-
-.skills_lists {
-  width: 80%;
-  margin: auto;
-}
-
-.skills_lists h5 {
-  font-size: 18px;
-  font-family: 'Raleway', sans-serif;
-}
-
-// .aboutPhoto {
-//   height: 200px;
-//   width: 200px;
-//   border-radius: 220px;
-// }
-
 .aboutDescription {
   width: 85%;
   margin-bottom: 70px;
@@ -190,5 +192,10 @@ Sticky navbar
 
 #map {
   width: 100%;
+  height: 400px;
+}
+
+.image-size img {
+  width: 700px;
   height: 400px;
 }

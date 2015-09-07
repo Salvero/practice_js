@@ -2,43 +2,123 @@
     <div class="container-fluid">
         <div class="jumbotron text-center">
           <h2>Hello, I'm Salman</h2>
-            <p>Full Stack Rails Developer</p>
+            <span><p>Junior Rails Developer</p></span>
         </div>
     </div>
 </div>
-<div class="container-fluid">
+
+
+<!-- Examples -->
+<div class="container">
+
+<!-- Page Header -->
+<div class="row">
+    <div class="col-lg-12">
+      <div class="projectsLabel">
+        <h1 class="page-header">Latest Projects
+            <small>2015</small>
+        </h1>
+      </div>
+    </div>
+</div>
+<!-- /.row -->
+
+<!-- Projects Row -->
+<div class="row">
+    <div class="col-md-6 portfolio-item">
+        <div class="image-size"><%= image_tag("portfolio_a.png", class: "img-responsive") %></div>
+        <h3><%= link_to "Project One", root_path %></h3>
+        <p>United we stand divided we fail.  Meet the all star team behind the agency.</p>
+    </div>
+    <div class="col-md-6 portfolio-item">
+        <div class="image-size"><%= image_tag("portfolio_b.png", class: "img-responsive") %></div>
+        <h3><%= link_to "Project Two", root_path %></h3>
+        <p>Check our latest app builds or download them in the App Store.</p>
+    </div>
+</div>
+<!-- /.row -->
+
+<!-- Projects Row -->
+<div class="row">
+    <div class="col-md-6 portfolio-item">
+      <div class="image-size"><%= image_tag("portfolio_c.png", class: "img-responsive") %></div>
+      <h3><%= link_to "Project Three", root_path %></h3>
+      <p>Check our latest app builds or download them in the App Store.</p>
+    </div>
+    <div class="col-md-6 portfolio-item">
+      <div class="image-size"><%= image_tag("portfolio_d.png", class: "img-responsive") %></div>
+      <h3><%= link_to "Project Four", root_path %></h3>
+      <p>Check our latest app builds or download them in the App Store.</p>
+    </div>
+</div>
+
+<!-- /.row -->
+
+<!-- Projects Row -->
+<div class="row">
+    <div class="col-md-6 portfolio-item">
+      <div class="image-size"><%= image_tag("portfolio_e.png", class: "img-responsive") %></div>
+      <h3><%= link_to "Project Five", root_path %></h3>
+      <p>Check our latest app builds or download them in the App Store.</p>
+    </div>
+    <div class="col-md-6 portfolio-item">
+      <div class="image-size"><%= image_tag("portfolio_f.png", class: "img-responsive") %></div>
+      <h3><%= link_to "Project Six", root_path %></h3>
+      <p>Check our latest app builds or download them in the App Store.</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- something wrong in structures -->
+<!-------------------------------------------------->
+<!-- my works -->
+<!-- <div class="container">
     <div class="projectsLabel">
       <h2>Latest Projects</h2>
-        <div class="row">
-          <div class="thumbnail col-lg-4">
-            <%= link_to(image_tag("sticker-team.png", target: "_blank", size: "400x250"), root_path) %>
+    </div>
+  <div class="container">
+      <div class="image-size">
+      <div class="row">
+        <div class="col-lg-4">
+            <%= link_to image_tag("portfolio_a.png", class: "img-responsive"), "http://www.google.com", target: "_blank" %>
             <p>United we stand divided we fail.  Meet the all star team behind the agency.</p>
-            <!-- <a href="team.html" class="button">Meet the Team</a> -->
           </div>
-
-          <div class="thumbnail col-lg-4">
-            <%= link_to(image_tag("sticker-work.png", size: "400x250"), alt="") %>
+          <div class="col-lg-4">
+            <%= image_tag("portfolio_b.png", class: "img-responsive") %>
             <p>Check our latest app builds or download them in the App Store.</p>
-            <a href="work.html" class="button">Latest Projects</a>
           </div>
-
-          <div class="thumbnail col-lg-4">
-            <%= link_to(image_tag("sticker-contact.png", size: "400x250"), alt="") %>
+          <div class="col-lg-4">
+            <%= image_tag("portfolio_c.png", class: "img-responsive") %>
             <p>Have questions or requests?  Feel free to contact us, we’d love hear from you.</p>
             <a href="#" class="button">Contact Us</a>
           </div>
-
-        <div class="row">
-          <div class="boxes col-lg-4">
-              <p>Add Your Project here </p>
+          <div class="col-lg-4">
+            <%= image_tag("portfolio_d.png", class: "img-responsive") %>
+            <p>Have questions or requests?  Feel free to contact us, we’d love hear from you.</p>
+            <a href="#" class="button">Contact Us</a>
           </div>
-          <div class="boxes2 col-lg-4">
-              <p>Add Your Project here </p>
+          <div class="col-lg-4">
+            <%= image_tag("portfolio_e.png", class: "img-responsive") %>
+            <p>Have questions or requests?  Feel free to contact us, we’d love hear from you.</p>
+            <a href="#" class="button">Contact Us</a>
           </div>
-          <div class="boxes3 col-lg-4">
-              <p>Add Your Project here </p>
+          <div class="col-lg-4">
+            <%= image_tag("portfolio_f.png", class: "img-responsive") %>
+            <p>Have questions or requests?  Feel free to contact us, we’d love hear from you.</p>
+            <a href="#" class="button">Contact Us</a>
           </div>
         </div>
       </div>
   </div>
-</div>
+</div> -->
