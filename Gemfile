@@ -12,6 +12,7 @@ gem 'typedjs-rails', '~> 1.0.2'
 gem 'gmaps4rails'
 gem 'pry', '~> 0.10.1'
 gem 'puma'
+gem 'font-awesome-rails', '~> 4.4.0.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
