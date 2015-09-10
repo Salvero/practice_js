@@ -5,17 +5,14 @@ $(document).ready(function(){
 });
 
 // Parallax
-$(document).ready(function(){
-  $('.parallax-window').parallax({
-    data-image-src=<%= asset_path "204H.jpg" %>
-  });
-});
+// $('.parallax-window').parallax({
+//   data-image-src=<%= asset_path "204H.jpg" %>
+// });
+//
+// $('.parallax-window2').parallax({
+//   data-image-src=<%= asset_path "machine.jpg" %>
+// });
 
-$(document).ready(function(){
-  $('.parallax-window2').parallax({
-    data-image-src=<%= asset_path "machine.jpg" %>
-  });
-});
 
 
 // Simple Lightbox
