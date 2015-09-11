@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require jquery.sticky
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require parallax.js
