@@ -20,7 +20,6 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-parallax.js'
   gem 'rails-assets-font-awesome'
   gem 'rails-assets-gmaps'
-  gem 'rails-assets-jquery.sticky'
 end
 
 group :development, :test do
