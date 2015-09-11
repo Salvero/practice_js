@@ -8,15 +8,15 @@
 }
 
 .header {
-  position: fixed;
-  z-index: 9999;
+  // position: fixed;
+  // z-index: 9999;
   width: 100%;
 }
 
-Sticky navbar
+//Sticky navbar
 .is-sticky .header {
   background-color: rgba(#460d0d, 0.77);
-  z-index: 9998;
+  z-index: 1000;
   position: fixed;
 }
 
