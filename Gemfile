@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'bundler', '~> 1.10.6'
+
 gem 'rails', '4.2.4'
 gem 'sass-rails', '~> 5.0.3'
 gem 'coffee-rails', '~> 4.1.0'
@@ -14,6 +16,12 @@ gem 'pry', '~> 0.10.1'
 gem 'puma'
 gem 'font-awesome-rails', '~> 4.4.0.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-parallax.js'
+  gem 'rails-assets-font-awesome'
+  gem 'rails-assets-gmaps'
+end
 
 group :development, :test do
   gem 'sqlite3', '~> 1.3.10'
