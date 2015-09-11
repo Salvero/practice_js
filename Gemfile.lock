@@ -107,7 +107,6 @@ GEM
     rails-assets-font-awesome (4.4.0)
     rails-assets-gmaps (0.4.19)
     rails-assets-jquery (2.1.4)
-    rails-assets-jquery.sticky (1.0.0)
     rails-assets-parallax.js (1.3.2)
       rails-assets-jquery (>= 1.7)
     rails-deprecated_sanitizer (1.0.3)
@@ -183,7 +182,6 @@ DEPENDENCIES
   rails (= 4.2.4)
   rails-assets-font-awesome!
   rails-assets-gmaps!
-  rails-assets-jquery.sticky!
   rails-assets-parallax.js!
   rails_12factor (~> 0.0.3)
   sass-rails (~> 5.0.3)
