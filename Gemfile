@@ -14,13 +14,13 @@ gem 'gmaps4rails'
 gem 'pry', '~> 0.10.1'
 gem 'puma'
 gem 'font-awesome-rails', '~> 4.4.0.0'
-gem 'sticky-rails', '~> 1.0.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-parallax.js'
   gem 'rails-assets-font-awesome'
   gem 'rails-assets-gmaps'
+  gem 'rails-assets-jquery.sticky'
 end
 
 group :development, :test do
