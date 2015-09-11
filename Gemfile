@@ -10,11 +10,11 @@ gem 'turbolinks'
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'jbuilder', '~> 2.0'
 gem 'uglifier', '~> 2.7.2'
-gem 'typedjs-rails', '~> 1.0.2'
 gem 'gmaps4rails'
 gem 'pry', '~> 0.10.1'
 gem 'puma'
 gem 'font-awesome-rails', '~> 4.4.0.0'
+gem 'sticky-rails', '~> 1.0.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 source 'https://rails-assets.org' do

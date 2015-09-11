@@ -1,4 +1,4 @@
 // Sticky
-$(document).ready(function(){
-  $(".header").sticky();
-});
+// $(document).ready(function(){
+//   $(".header").sticky();
+// });
