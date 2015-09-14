@@ -4,18 +4,12 @@
 .navbar {
   background-color: rgba(#ba2a2b, 0.83);
   height: 80px;
-  transition: 1s;
 }
 
 .header {
-  // position: fixed;
-  // z-index: 9999;
-  width: 100%;
-}
-
-#sticker {
   position: fixed;
   z-index: 9999;
+  width: 100%;
 }
 
 .nav > li > a  {
