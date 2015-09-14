@@ -17,6 +17,7 @@ gem 'font-awesome-rails', '~> 4.4.0.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 source 'https://rails-assets.org' do
+  gem 'rails-assets-sticky'
   gem 'rails-assets-parallax.js'
   gem 'rails-assets-font-awesome'
   gem 'rails-assets-gmaps'

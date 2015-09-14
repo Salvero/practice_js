@@ -16,4 +16,5 @@
 //= require bootstrap-sprockets
 //= require parallax.js
 //= require gmaps
+//= require sticky
 //= require_tree .
